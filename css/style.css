@@ -122,10 +122,9 @@ button:hover {
     width: 100vw;
     height: 1080px;
     background-image: url(../image/01.jpg) center center;
-    background-image: linear-gradient(to bottom, rgba(15, 15, 15, 0), rgba(9, 78, 97, 0.9)), url(../image/01.jpg);
+    background-image: linear-gradient(to bottom, rgba(15, 15, 15, 0.5), rgba(9, 78, 97, 0.7)), url(../image/01.jpg);
     background-position: center;
     background-size: cover;
-
 }
 
 h1 {
@@ -134,20 +133,23 @@ h1 {
     max-width: 800px;
     font-weight: 600;
     line-height: 1.22;
-    color: #00c5e6;
+    color: #00b2d7;
     font-family: 'Poppins', sans-serif;
     line-height: 1.5;
+   
 }
 
 h1:hover {
   
-   color:  #1F8FAD;
+    color: #00d8ff;
 }
 
 h4 {
      font-size: 40px;
-    color: white;
+     color:white;
+     
 }
+
 
 #btn2 {
     width: 200px;
